@@ -58,3 +58,5 @@ if __name__ == "__main__":
         stmt="search_slow(haystack, needle)", setup=setup, number=iterations
     )
     print(f"search_slow time: {t/iterations:.5e}")
+
+
